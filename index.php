@@ -1,7 +1,7 @@
 <?php 
 
 //koneksi ke database
-$conn = mysqli_connect("localhost", "root", "", "prakweb2023b_213040039");
+$conn = mysqli_connect("localhost", "root", "", "prakweb_2023_b_213040039");
 
 $result = mysqli_query($conn, "SELECT * FROM buku");
 // var_dump($result);
